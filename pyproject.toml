@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "FalkorDB"
+name = "kiarina-falkordb"
 version = "1.2.0"
-description = "Python client for interacting with FalkorDB database"
-authors = ["FalkorDB inc <info@falkordb.com>"]
+description = "FalkorDB Python client (fork with additional fixes)"
+authors = [
+    "FalkorDB inc <info@falkordb.com>",
+    "kiarina <kiarinadawa@gmail.com>"
+]
 
 readme = "README.md"
-repository = "http://github.com/falkorDB/falkordb-py"
-homepage = "http://falkordb-py.readthedocs.io"
+repository = "https://github.com/kiarina/falkordb-py"
+homepage = "https://github.com/kiarina/falkordb-py"
 keywords = ['FalkorDB', 'GraphDB', 'Cypher']
 classifiers = [
     "Programming Language :: Python :: 3",

@@ -1,11 +1,14 @@
-[![license](https://img.shields.io/github/license/falkordb/falkordb-py.svg)](https://github.com/falkordb/falkordb-py)
-[![Release](https://img.shields.io/github/release/falkordb/falkordb-py.svg)](https://github.com/falkordb/falkordb-py/releases/latest)
-[![PyPI version](https://badge.fury.io/py/falkordb.svg)](https://badge.fury.io/py/falkordb)
-[![Codecov](https://codecov.io/gh/falkordb/falkordb-py/branch/main/graph/badge.svg)](https://codecov.io/gh/falkordb/falkordb-py)
-[![Forum](https://img.shields.io/badge/Forum-falkordb-blue)](https://github.com/orgs/FalkorDB/discussions)
-[![Discord](https://img.shields.io/discord/1146782921294884966?style=flat-square)](https://discord.gg/ErBEqN9E)
+[![license](https://img.shields.io/github/license/kiarina/falkordb-py.svg)](https://github.com/kiarina/falkordb-py)
+[![Release](https://img.shields.io/github/release/kiarina/falkordb-py.svg)](https://github.com/kiarina/falkordb-py/releases/latest)
+[![PyPI version](https://badge.fury.io/py/kiarina-falkordb.svg)](https://badge.fury.io/py/kiarina-falkordb)
 
-# falkordb-py
+# kiarina-falkordb
+
+> **ℹ️ This is a fork of [falkordb-py](https://github.com/FalkorDB/falkordb-py) with additional fixes.**
+>
+> **Original work by the [FalkorDB team](https://github.com/FalkorDB/falkordb-py).**
+>
+> This fork includes bug fixes and improvements that are pending upstream merge.
 
 [![Try Free](https://img.shields.io/badge/Try%20Free-FalkorDB%20Cloud-FF8101?labelColor=FDE900&style=for-the-badge&link=https://app.falkordb.cloud)](https://app.falkordb.cloud)
 
@@ -15,8 +18,14 @@ see [docs](http://falkordb-py.readthedocs.io/)
 
 ## Installation
 ```sh
-pip install FalkorDB
+pip install kiarina-falkordb
 ```
+
+## Differences from upstream
+
+- ✅ Fixed async `from_url()` to correctly use host/port from URL
+- ✅ All original functionality preserved
+- 🔄 Actively maintained with upstream compatibility
 
 ## Usage
 
