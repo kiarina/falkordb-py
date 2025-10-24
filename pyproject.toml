@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kiarina-falkordb"
-version = "1.2.0"
+version = "1.3.0"
 description = "FalkorDB Python client (fork with additional fixes)"
 authors = [
     "FalkorDB inc <info@falkordb.com>",
