@@ -10,7 +10,6 @@ homepage = "http://falkordb-py.readthedocs.io"
 keywords = ['FalkorDB', 'GraphDB', 'Cypher']
 classifiers = [
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -22,8 +21,8 @@ classifiers = [
 packages = [{include = "falkordb"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-redis = ">=6.0.0,<7.0.0"
+python = "^3.9"
+redis = ">=7.0.0,<8.0.0"
 python-dateutil = "^2.9.0"
 
 [tool.poetry.group.test.dependencies]
