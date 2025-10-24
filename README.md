@@ -23,6 +23,8 @@ pip install kiarina-falkordb
 
 ## Differences from upstream
 
+- ✅ **redis-py 7.0.0 support** - Compatible with redis-py >= 7.0.0
+- ✅ **Python 3.9+ required** - Dropped Python 3.8 support for redis-py 7.x compatibility
 - ✅ Fixed async `from_url()` to correctly use host/port from URL
 - ✅ All original functionality preserved
 - 🔄 Actively maintained with upstream compatibility
